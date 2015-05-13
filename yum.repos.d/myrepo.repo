@@ -1,0 +1,5 @@
+[rhelMY]
+name=Red Hat Enterprise Linux $releasever - $basearch - DVD
+baseurl=file:///etc/repos
+enabled=1
+gpgcheck=0

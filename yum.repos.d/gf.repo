@@ -1,0 +1,50 @@
+[gf]
+name=Ghettoforge packages that won't overwrite core distro packages.
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/gf/$basearch
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority
+
+[gf-plus]
+name=Ghettoforge packages that will overwrite core distro packages.
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/plus/$basearch
+# Please read http://ghettoforge.org/index.php/Usage *before* enabling this repository!
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority
+
+[gf-testing]
+name=GhettoForge packages that are currently untested.
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/testing/$basearch
+# This repo may contain packages that overwrite core distro packages.  Please
+# read http://ghettoforge.org/index.php/Usage before enabling this repository.
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority
+
+[gf-source]
+name=Ghettoforge packages - Source
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/gf/SRPMS
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority
+
+[gf-plus-source]
+name=Ghettoforge plus packages - Source
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/plus/SRPMS
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority
+
+[gf-testing-source]
+name=Ghettoforge testing packages - Source
+baseurl=http://mirror.symnds.com/distributions/gf/el/7/testing/SRPMS
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-gf.el7
+failovermethod=priority

@@ -1,0 +1,23 @@
+[atrpms-bleeding]
+name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms bleeding
+failovermethod=priority
+baseurl=http://dl.atrpms.net/el7-$basearch/atrpms/bleeding
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms
+
+[atrpms-bleeding-debuginfo]
+name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms bleeding - Debug
+failovermethod=priority
+baseurl=http://dl.atrpms.net/debug/el7-$basearch/atrpms/bleeding
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms
+
+[atrpms-bleeding-source]
+name=Red Hat Enterprise Linux $releasever - $basearch - ATrpms bleeding - Source
+failovermethod=priority
+baseurl=http://dl.atrpms.net/src/el7-$basearch/atrpms/bleeding
+enabled=0
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-atrpms
