@@ -20,7 +20,8 @@ Installation
 To use this configuration, git clone this, and mv awesome-config to ~/.config/awesome
 
   * `cd ~/.config; git clone https://github.com/Amatsukan/AwesomeConfigs.git`
-  * `cd ~/.config/AwesomeConfigs
+  * `cd ~/.config/AwesomeConfigs`
+  * `git submodule init && git submodule update` - download vicious module
 
 Configuration
 -------------
@@ -97,3 +98,5 @@ You may also want to:
   * `ln -sf ../conf.avail/70-yes-bitmaps.conf ./`
 
 Then restart X.
+
+Original Version BY: https://github.com/tony/
