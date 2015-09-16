@@ -1,18 +1,3 @@
-Version: **Awesome 3.4.10**
-Awesome Homepage: http://awesome.naquadah.org
-
-**Beta testing: Awesome 3.5** is being tested in the [v3.5](https://github.com/tony/awesome-config/tree/v3.5) branch. It is experimental, if you have any problems feel free to file an issue.
-
-Based off of [Adrian C's awesome config](http://git.sysphere.org/awesome-configs).
-
-The aim of this project is to create a robust awesome configuration that works out of the box
-with minimal configuration.
-
-Looking for maintainer
-----------------------
-
-I've recently switched to [i3wm](http://i3wm.org/), this configuration needs a new maintainer to handle v3.5 support and onward. If you are interested make an issue.
-
 Features
 --------
   * `Modkey + Shift + Enter` is Terminal
@@ -34,22 +19,8 @@ Installation
 ------------
 To use this configuration, git clone this, and mv awesome-config to ~/.config/awesome
 
-  * `cd ~/.config; git clone https://github.com/tony/awesome-config.git awesome`
-  * `cd ~/.config/awesome`
-  * `git submodule init && git submodule update` - download vicious module
-
-Try the one liner:
-
-```bash
-git clone https://github.com/tony/awesome-config.git ~/.config/awesome && cd ~/.config/awesome && git submodule init && git submodule update && less ~/.config/awesome/README.md
-```
-
-If you are using awesome version 3.5 (beta, in testing), then do:
-
-  * `cd ~/.config/awesome`
-  * `git checkout v3.5`
-
-Version 3.5 is in testing in the [3.5 branch](https://github.com/tony/awesome-config/tree/v3.5).
+  * `cd ~/.config; git clone https://github.com/Amatsukan/AwesomeConfigs.git`
+  * `cd ~/.config/AwesomeConfigs
 
 Configuration
 -------------
@@ -126,9 +97,3 @@ You may also want to:
   * `ln -sf ../conf.avail/70-yes-bitmaps.conf ./`
 
 Then restart X.
-
-
-by Tony Narlock (tony@git-pull.com)
-
-* Github: http://www.github.com/tony
-* Website: http://www.git-pull.com
